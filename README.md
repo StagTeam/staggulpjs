@@ -6,8 +6,7 @@
 StagGulpJS is a js builder starter based on gulp, Bower, that will help you make better build js.
 
 * Source: [https://github.com/staglabel/staggulpjs](https://github.com/staglabel/staggulpjs)
-* Homepage: [https://staglabel.io/staggulpjs/](https://staglabel.io/staggulpjs/)
-* Documentation: [https://staglabel.io/staggulpjs/docs/](https://roots.io/staggulpjs/docs/)
+
 
 
 ## Requirements
