@@ -1,0 +1,21 @@
+{
+  "name": "staggulpjs",
+  "homepage": "https://staglabel.io/staggulpjs/",
+  "authors": [
+    "Auban le Grelle <auban@staglabel.be>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "modernizr": "2.8.2",
+	"jquery": "1.11.1"
+  },
+  "overrides": {
+    "modernizr": {
+      "main": "./modernizr.js"
+    },
+	"jquery": {
+      "main": "./jquery.js"
+    }
+  }
+}
