@@ -22,7 +22,7 @@
 
   <!-- Don't require a blank line after the last `use` in templates/ directory -->
   <rule ref="PSR2.Namespaces.UseDeclaration.SpaceAfterLastUse">
-    <exclude-pattern>templates/*</exclude-pattern>
+ 
   </rule>
 
   <!-- Allow PHP closing tags on templates -->
