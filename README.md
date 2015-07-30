@@ -1,6 +1,5 @@
 # [staggulpjs](https://www.staglabel.be)
 [![Build Status](https://travis-ci.org/staglabel/staggulpjs.svg)](https://travis-ci.org/staglabel/staggulpjs)
-[![devDependency Status](https://david-dm.org/staglabel/staggulpjs)](https://david-dm.org/staglabel/staggulpjs#info=devDependencies)
 [![devDependency Status](https://david-dm.org/staglabel/staggulpjs/dev-status.svg)](https://david-dm.org/staglabel/staggulpjs#info=devDependencies)
 
 
