@@ -163,8 +163,8 @@ gulp.task('clean', require('del').bind(null, [path.dist]));
 // build step for that asset and inject the changes into the page.
 // See: http://www.browsersync.io
 gulp.task('watch', function() {
-  gulp.watch([path.source + 'styles/**/*'], ['styles']);
   gulp.watch([path.source + 'images/**/*'], ['images']);
+  gulp.watch([path.source + 'scripts/**/*'], ['scripts']);
   gulp.watch(['bower.json', 'assets/manifest.json'], ['build']);
 });
 
