@@ -66,8 +66,6 @@ var revManifest = path.dist + 'assets.json';
 // ## Reusable Pipelines
 // See https://github.com/OverZealous/lazypipe
 
-
-
 // ### JS processing pipeline
 // Example
 // ```
@@ -112,7 +110,6 @@ var writeToManifest = function(directory) {
 // ## Gulp tasks
 // Run `gulp -T` for a task summary
 
-
 // ### Scripts
 // `gulp scripts` - Runs JSHint then compiles, combines, and optimizes Bower JS
 // and project JS.
@@ -127,7 +124,6 @@ gulp.task('scripts', ['jshint'], function() {
   return merged
     .pipe(writeToManifest('scripts'));
 });
-
 
 // ### Images
 // `gulp images` - Run lossless compression on all the images.
@@ -176,7 +172,6 @@ gulp.task('build', function(callback) {
               ['images'],
               callback);
 });
-
 
 // ### Gulp
 // `gulp` - Run a complete build. To compile for production run `gulp --production`.
